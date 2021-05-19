@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Books here"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:padding="30dip"
+        android:textStyle = "bold"
+        style = "@style/TextAppearance.AppCompat.Headline"/>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:hint="Enter title"
+        android:layout_margin="20sp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:hint="Enter Author"
+        android:layout_margin="20sp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/genre"
+        android:layout_width="match_parent"
+        android:hint="Enter Genre"
+        android:layout_margin="20sp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/submit"
+        android:onClick="submitAddition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Add book"/>
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_margin="20sp"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+
+</LinearLayout>

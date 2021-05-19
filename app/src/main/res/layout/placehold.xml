@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reserve Book"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:padding="30dip"
+        android:textStyle = "bold"
+        style = "@style/TextAppearance.AppCompat.Headline"/>
+
+    <EditText
+        android:id="@+id/genre"
+        android:hint="Enter genre here: 'Fiction', 'Memoir'"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/SubmitBook"
+        android:layout_width="match_parent"
+        android:layout_margin="20sp"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+    <Button
+        android:id="@+id/done"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"/>
+
+
+</LinearLayout>
