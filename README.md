@@ -1,3 +1,3 @@
 # OtterLibrary
 Built an app using Android Studio
-Used SQL, JAVA, AND worked on the XML
+Used SQL, JAVA, and worked on the XML
